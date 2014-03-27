@@ -1,0 +1,24 @@
+/* Grid Mixin  */
+$grid-columns: 12;
+$unit: (100%  / $grid-columns) ; 
+$gutter: 2%;
+$push: 0 !default;
+$gutter2: 0;
+	
+@mixin grid($col, $push) {
+float: left;
+width: (($unit * $col) - $gutter ) + ( $gutter / ( $grid-columns / $col) ) ;
+padding:20px;
+@include box-size;
+@include transition;
+margin-right: $gutter;
+	@if $push > 1 {
+	margin-left:(($unit * $push) ) + ( $gutter / ( $grid-columns / $push) );
+	}
+	&:last-child {
+	margin-right:0;
+	
+	}
+}
+
+

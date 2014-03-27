@@ -1,0 +1,24 @@
+/* Main Layout Blocks */ 
+.wrapper {
+@include clear;
+max-width: 1000px;
+margin: 30px auto;
+}
+.container {
+@include clear;
+width: 100%;
+margin: 10px 0;
+}
+.inner-wrap {
+	@include clear;
+@include grid(4,  0);
+@include break(mobile, 100%);
+}
+
+.link{
+@include grid(6,  0);
+@include break(mobile, 100%);
+}
+
+
+
