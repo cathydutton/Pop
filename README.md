@@ -1,6 +1,6 @@
 # Pop
-# Cathy Dutton
-# http://www.cathydutton.co.uk
+## Cathy Dutton
+### http://www.cathydutton.co.uk
 
 Pop is A simple jQuery and css3 tooltip example.
 
@@ -9,7 +9,7 @@ Pop is A simple jQuery and css3 tooltip example.
 If you have any questions get in touch:
 
 -   [info@cathydutton.co.uk](mailto:info@cathydutton.co.uk)
--   [@cathydutton](http://twitter.com/cathydutton)
+-   [@cathy_dutton](http://twitter.com/cathy_dutton)
 
 
 ### Features
